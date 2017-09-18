@@ -1,0 +1,323 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Verdana');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*----------------------------------------------------------------
+    Font Family
+----------------------------------------------------------------*/
+
+h1, 
+h2, 
+h3, 
+h4 {
+    font-family: 'Verdana', Arial, Helvetica, sans-serif;
+}
+
+#banner p,
+.btn, 
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+
+#contact p,
+.formbuilder-form .row label,
+#contact p,
+#services p,
+body,
+ul li {
+    color: #333;
+}
+
+body {
+    font-size: 20px;
+}
+h4,
+body {
+    line-height: 35px;
+}
+
+#header2a:before, 
+#header2a a,header span, 
+#header2b a,
+header a:hover {
+    color: #ffffff;
+}
+
+#banner h1, 
+#banner p,  
+.contact_detail, 
+.contact_detail a {
+    color: #fff;
+}
+
+#services h3 {
+    color:#1e9deb;
+    font-weight: 600;
+}
+
+#content h2, 
+#content h3,
+#content h4,
+#contact h2, 
+#contact h3 {
+    color: #333;
+    font-weight: 600;
+}
+#banner p {
+    font-size: 19px;
+}
+
+body, 
+.formbuilder-form .row label {
+    font-weight:400;
+}
+
+#services p,
+.contact_detail, 
+.contact_detail a {
+    font-weight:100;
+}
+
+.btn, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover,
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+   text-transform: uppercase;
+}
+
+#header2b a, 
+footer a:hover,
+.contact_detail a,
+.contact_detail a:hover,
+btn, 
+.btn:hover, 
+.btn:focus, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover, 
+.formbuilder-form input#submit-form:focus, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover,
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus {
+    text-decoration: none;
+}
+    
+/*----------------------------------------------------------------
+    Form
+----------------------------------------------------------------*/
+
+.form, 
+#extraFormsContainer .modal-dialog{
+    background-color: rgba(4, 145, 232, 0.85);
+}
+
+.formbuilder-form .row input, 
+.formbuilder-form .row select, 
+.formbuilder-form .row textarea {
+    color:#000;
+}
+/*----------------------------------------------------------------
+    Buttons
+----------------------------------------------------------------*/
+
+.btn {
+    color: #FFF;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    width:40%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    color:#fff;
+    background-color: rgba(1,8,210,0.8);
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+@media (min-width: 711px) {
+    .btn:hover, 
+    .btn:focus, 
+    .btn:active, 
+    .btn.active, 
+    .open>.dropdown-toggle.btn {
+        color: #fff;
+        font-weight:600;
+        border: 2px solid #0108d2;
+        background-color: rgba(1,8,210,0.8);
+    }
+} 
+
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover{
+    background-color: rgba(47, 46, 46, 1);
+    border-color: rgba(176, 214, 184, 1);
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+/*----------------------------------------------------------------
+    Custom Styles
+----------------------------------------------------------------*/
+
+#contact1b,
+#content2b,
+#contact2,
+#gallery {
+    display:none;
+}
+
+/*----------------------------------------------------------------
+    Header
+----------------------------------------------------------------*/
+#header {
+    padding: 4px 0;
+    width: 100%;
+    z-index: 1;
+    margin: auto;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+#header1 p {
+    line-height:0;
+}
+
+#header1 img{
+    background-color: rgba(255, 255, 255,0.9);
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top: -5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#header2b {
+    font-size: 16px;
+}
+
+#header2a:before{
+    font-size: 38px;
+    content: '\f098';
+    padding-right: 5px;
+}
+
+#header2 {
+    padding-bottom:37px;
+}
+
+/*----------------------------------------------------------------
+    Banner
+----------------------------------------------------------------*/
+
+#banner1 {
+	padding: 155px 10px 3px;
+}
+
+#banner h1 {
+    font-size: 55px;
+}
+
+.banner_cover {
+    opacity: 0.5;
+    background-color:#393939;
+}
+
+#banner1, #banner h1 {
+    margin:0;
+    text-align: left;
+}
+
+/*----------------------------------------------------------------
+    Services
+----------------------------------------------------------------*/
+
+#services {
+   padding: 20px 0 0px 0;
+}
+
+
+/*----------------------------------------------------------------
+  Contact 
+----------------------------------------------------------------*/
+#contact h2{
+    text-align: center;
+}
+#contact1 {
+    margin-left: 15%;
+    margin-right: 10%;
+    width: 70%;
+}
+    
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer *, 
+footer a , 
+footer {
+    color: #fff;
+}
+footer {
+    border-top:5px solid #0926d7;
+    background-color: #242424;
+    padding: 25px 0 25px;
+}
+
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+@media only screen and (max-width: 767px) and (min-width: 0px)  {  
+    #banner h1 , #banner p,.btn{
+        text-align:center;
+    }
+    #header {
+        padding-bottom:25px;
+    }
+    #header2b {
+        line-height:15px;
+    }
+    #banner h1 {
+        font-size:45px;
+    	padding: 60px 10px 3px;
+    }
+    #service1:hover,
+    #service2:hover,
+    #service3:hover,
+    #service4:hover{
+        transform: scale(1.0);
+    }
+    #contact1{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;}
+}
+
+@media (max-width: 600px) {
+    .btn{
+        width:100%;
+        word-wrap: break-word;
+    }
+}
+@media (min-width: 0px) {
+    .btn {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 767px) {
+    #service3 {
+        clear:left;
+    }
+} 
+@media (min-width: 767px) {
+    #service1,
+    #service2,
+    #service3,
+    #service4 {
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+}
